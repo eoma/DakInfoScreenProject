@@ -72,3 +72,7 @@
 [DoctrineFixturesBundle]
     git=http://github.com/symfony/DoctrineFixturesBundle.git
     target=/bundles/Symfony/Bundle/DoctrineFixturesBundle
+
+[DakInfoScreenBundle]
+    git=http://github.com/eoma/DakInfoScreenBundle.git
+	target=/bundles/Dak/InfoScreenBundle
