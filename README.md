@@ -26,6 +26,7 @@ Then execute the following:
     php vendor/bundles/Sensio/Bundle/DistributionBundle/Resources/bin/build_bootstrap.php
     php app/console doctrine:schema:create
     php app/console doctrine:fixtures:load
+    php app/console assets:install web/ --symlink
 
 You should now be able to navigate to `http://localhost/path/to/infoscreen/`.
 If you get error messages please use `http://localhost/path/to/infoscreen/app_dev.php`.
