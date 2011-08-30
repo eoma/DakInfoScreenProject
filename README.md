@@ -13,7 +13,7 @@ Setup
 Run
 
     git submodule init
-	git submodule update
+    git submodule update
 
 Run `php app/check.php` to make sure your php instaltion has all it requires.
 
@@ -23,8 +23,9 @@ Copy `app/config/parameters.ini.dist` to `app/config/parameters.ini`. Edit it ac
 
 Then execute the following:
 
+    php vendor/bundles/Sensio/Bundle/DistributionBundle/Resources/bin/build_bootstrap.php
     php app/console doctrine:schema:create
-	php app/console doctrine:fixtures:load
+    php app/console doctrine:fixtures:load
 
 You should now be able to navigate to `http://localhost/path/to/infoscreen/`.
 If you get error messages please use `http://localhost/path/to/infoscreen/app_dev.php`.
