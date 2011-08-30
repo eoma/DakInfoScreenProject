@@ -10,6 +10,11 @@ This is a symfony 2 project with the [DakInfoScreenBundle][dakInfoScreenBundle] 
 Setup
 -----
 
+Run
+
+    git submodule init
+	git submodule update
+
 Run `php app/check.php` to make sure your php instaltion has all it requires.
 
 Make sure the web-server has read-write access to app/cache and app/logs.
