@@ -3,7 +3,7 @@
 	url = http://github.com/symfony/symfony.git
 [submodule "vendor/twig"]
 	path = vendor/twig
-	url = http://github.com/fabpot/twig.git
+	url = http://github.com/fabpot/Twig.git
 [submodule "vendor/monolog"]
 	path = vendor/monolog
 	url = http://github.com/Seldaek/monolog.git
@@ -30,7 +30,7 @@
 	url = http://github.com/schmittjoh/metadata.git
 [submodule "vendor/bundles/Sensio/Bundle/FrameworkExtraBundle"]
 	path = vendor/bundles/Sensio/Bundle/FrameworkExtraBundle
-	url = http://github.com/sensio/SensioFrameworkBundle.git
+	url = http://github.com/sensio/SensioFrameworkExtraBundle.git
 [submodule "vendor/bundles/JMS/SecurityExtraBundle"]
 	path = vendor/bundles/JMS/SecurityExtraBundle
 	url = http://github.com/schmittjoh/JMSSecurityExtraBundle.git
@@ -43,3 +43,18 @@
 [submodule "vendor/bundles/Symfony/Bundle/AsseticBundle"]
 	path = vendor/bundles/Symfony/Bundle/AsseticBundle
 	url = http://github.com/symfony/AsseticBundle.git
+[submodule "vendor/gedmo-doctrine-extensions"]
+	path = vendor/gedmo-doctrine-extensions
+	url = http://github.com/l3pp4rd/DoctrineExtensions.git
+[submodule "vendor/bundles/Stof/DoctrineExtensionsBundle"]
+	path = vendor/bundles/Stof/DoctrineExtensionsBundle
+	url = http://github.com/stof/StofDoctrineExtensionsBundle.git
+[submodule "vendor/doctrine-fixtures"]
+	path = vendor/doctrine-fixtures
+	url = http://github.com/doctrine/data-fixtures.git
+[submodule "vendor/bundles/Symfony/Bundle/DoctrineFixturesBundle"]
+	path = vendor/bundles/Symfony/Bundle/DoctrineFixturesBundle
+	url = http://github.com/symfony/DoctrineFixturesBundle.git
+[submodule "vendor/bundles/Dak/InfoScreenBundle"]
+	path = vendor/bundles/Dak/InfoScreenBundle
+	url = http://github.com/eoma/DakInfoScreenBundle.git
