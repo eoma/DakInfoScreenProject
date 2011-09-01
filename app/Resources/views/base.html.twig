@@ -7,6 +7,9 @@
         <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" />
     </head>
     <body>
+        {% block nav %}
+          <a href="{{ path('screen') }}">Screens</a> - <a href="{{ path('slidesource') }}">Slide sources</a> <br />
+        {% endblock %}
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
     </body>
